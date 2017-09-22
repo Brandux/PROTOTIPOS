@@ -30,6 +30,10 @@
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+
   </head>
 
   <body class="nav-md">
@@ -198,168 +202,120 @@
         <!-- page content -->
         <div class="right_col" role="main">
           <div class="">
-            <div class="page-title">
-              <div class="title_left">
-                <h3>Registro</h3>
-              </div>
-
-              <div class="title_right">
-                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Buscar por...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Vamos!</button>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="clearfix"></div/>
+                <div class="row">
 
-      <div class="row">
-              <div class="col-md-12 col-xs-12">
+              <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Registrar Empresa</h2>
-                    <ul class="nav navbar-right panel_toolbox">
-                    </ul>
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="x_content">
-                    <br />
-                    <form class="form-horizontal form-label-left input_mask">
-
-                      <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                        <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Nombre de la empresa">
-                        <span class="fa fa-institution form-control-feedback left" aria-hidden="true"></span>
-                      </div>
-
+                    <h2>Form Wizards <small>Sessions</small></h2>
                     
-                      <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                        <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Ubicacion/Direccion">
-                        <span class="fa fa-crosshairs form-control-feedback left" aria-hidden="true"></span>
-                      </div>
-                        
-                      <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                        <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Nombre del Representante">
-                        <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
-                      </div>
-
-                      <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                        <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-                        <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
-                      </div>
-
-                      <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                        <input type="text" class="form-control" id="inputSuccess5" placeholder="Telefono">
-                        <span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
-                      </div>
-                        
-                      <div class="ln_solid"></div>
-                      <div class="form-group">
-                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
-                          <button type="button" class="btn btn-primary">Cancel</button>
-						   <button class="btn btn-primary" type="reset">Reset</button>
-                          <button type="submit" class="btn btn-success">Submit</button>
-                        </div>
-                      </div>
-
-                    </form>
-                  </div>
-                </div>
-
-      </div>
-    </div>
-            
-            
-    <!-- Jos -->
-            
-          <!--  <div class="row">
-              <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="x_panel">
-                  <div class="x_title">
-                    <h2>Documentos</h2>
-                    <ul class="nav navbar-right panel_toolbox">
-                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                      </li>
-                    </ul>
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-                    <br />
-                    <form class="form-horizontal form-label-left">
 
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Evaluaciones</label>
-                        <div class="col-md-9 col-sm-9 col-xs-9">
-                          <div class="btn-group">
-                            <input type="file" data-role="magic-overlay" data-target="#pictureBtn" data-edit="insertdoc" />
-                          </div>
-                          <span class="fa fa-file form-control-feedback right" aria-hidden="true"></span>
-                        </div>
-                      </div>
-                        
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Solicitud</label>
-                        <div class="col-md-9 col-sm-9 col-xs-9">
-                          <input type="text" class="form-control" data-inputmask="'mask' : '(999) 999-9999'">
-                          <span class="fa fa-file form-control-feedback right" aria-hidden="true"></span>
-                        </div>
-                      </div>
-                        
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Presentacion</label>
-                        <div class="col-md-9 col-sm-9 col-xs-9">
-                          <input type="text" class="form-control" data-inputmask="'mask': '99-999999'">
-                          <span class="fa fa-file form-control-feedback right" aria-hidden="true"></span>
-                        </div>
-                      </div>
-                        
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Comvenio</label>
-                        <div class="col-md-9 col-sm-9 col-xs-9">
-                          <input type="text" class="form-control" data-inputmask="'mask' : '****-****-****-****-****-***'">
-                          <span class="fa fa-file form-control-feedback right" aria-hidden="true"></span>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Aceptacion</label>
-                        <div class="col-md-9 col-sm-9 col-xs-9">
-                          <input type="text" class="form-control" data-inputmask="'mask' : '99-99999999'">
-                          <span class="fa fa-file form-control-feedback right" aria-hidden="true"></span>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Evaluacion</label>
-                        <div class="col-md-9 col-sm-9 col-xs-9">
-                          <input type="text" class="form-control" data-inputmask="'mask' : '9999-9999-9999-9999'">
-                          <span class="fa fa-file form-control-feedback right" aria-hidden="true"></span>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Contrato</label>
-                        <div class="col-md-9 col-sm-9 col-xs-9">
-                          <input type="text" class="form-control" data-inputmask="'mask' : '9999-9999-9999-9999'">
-                          <span class="fa fa-file form-control-feedback right" aria-hidden="true"></span>
-                        </div>
-                      </div>
-                      <div class="ln_solid"></div>
 
-                      <div class="form-group">
-                        <div class="col-md-9 col-md-offset-3">
-                          <button type="submit" class="btn btn-primary">Subir</button>
-                          <button type="submit" class="btn btn-success">Limpiar</button>
-                        </div>
-                      </div>
+                    <!-- Smart Wizard -->
+                    <div id="wizard" class="form_wizard wizard_horizontal">
+                      <ul class="wizard_steps">
+                        <li>
+                          <a href="#step-1">
+                            <span class="step_no">1</span>
+                            <span class="step_descr">
+                                              Step 1<br />
+                                              <small>Step 1 description</small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-2">
+                            <span class="step_no">2</span>
+                            <span class="step_descr">
+                                              Step 2<br />
+                                              <small>Step 2 description</small>
+                                          </span>
+                          </a>
+                        </li>
+                      </ul>
+                      <div id="step-1">
+                      
 
-                    </form>
-                  </div>
-                </div>
-              </div>
-    </div>
-    
-            !-->
+                        <form class="form-horizontal form-label-left"style="overflow-y: hidden">
+                          
+                          <h1 class="has-feedback">Empresa</h1>
+                          <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                    <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Nombre de la empresa">
+                                    <span class="fa fa-institution form-control-feedback left" aria-hidden="true"></span>
+                                  </div>
+
+
+                                  <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                    <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Ubicacion/Direccion">
+                                    <span class="fa fa-crosshairs form-control-feedback left" aria-hidden="true"></span>
+                                  </div>
+
+                                  
+                                  <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                    <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
+                                    <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
+                                  </div>
+
+                                  <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                    <input type="text" class="form-control" id="inputSuccess5" placeholder="Telefono de la Empresa">
+                                    <span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
+                                  </div>
+                                    
+                                     <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                    <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
+                                    <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
+                                  </div>
+
+                                  <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                    <input type="text" class="form-control" id="inputSuccess5" placeholder="Telefono de la Empresa">
+                                    <span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
+                                  </div>
+
+                                  <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+
+                                    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                                  </div>
+
+                        </form>
+
+                      </div>
+                      <div id="step-2">
+                           <form class="form-horizontal form-label-left input_mask"style="overflow-y: hidden">
+
+                                   <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Nombre del Representante">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Apellidos">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Cargo en la Empresa">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                                <input type="text" class="form-control" id="inputSuccess5" placeholder="Telefono">
+                                <span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
+                            </div>
+
+                                </form>
+
+                    </div>
       
+
+            </div>
+            </div>
+          </div>
+        
+    
+            
+            
+    
             
     <!--jos 2-->
             
@@ -534,5 +490,10 @@
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>
 	
+	
+	 
+    <!-- jQuery Smart Wizard -->
+    <script src="../vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+
   </body>
 </html>
